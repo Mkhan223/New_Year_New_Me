@@ -10,46 +10,55 @@ header{
   background-image: url("./images/banner/banner3.png");
   background-repeat: no-repeat;
   background-size:cover;
+  margin-bottom: 140px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  padding-right: 100px;
 }
 .banner-header{
 color: #FFF;
 font-size: 65px;
-text-align: right;
-padding:216px 230px 24px 0px;
+margin-top: 216px;
+margin-bottom:24px
 
 }
 .banner-description{
 color: #FFF;
-text-align: right;
 font-size: 16px;
 font-weight: 400;
-line-height: 26px; 
-padding:0px 230px 32px 0px ;
+line-height: 26px;
+margin-bottom:32px;
 }
 .btn-1{
-color: #005FAC;
-font-size: 20px;
-margin-bottom: 230px;
-padding:20px 25px 20px 25px;
+  padding:21px 25px 20px 26px;
+  color: #005FAC;
+  font-size: 20px;
+  margin-bottom: 186px;
+  border-radius: 5px;
+  border:none;
+  font-weight: 600;
 }
-.header{
-  margin-bottom:140px ;
-}
+
+
 .main-content{
   display: flex;
    margin-left: 100px; 
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 150px;
 }
 .failures{
-  padding-right: 105px;
+  padding-right: 100px;
 }
 .header-titel{
 color: #151414;
 font-size: 40px;
 line-height: normal;
 margin-bottom: 24px;
+font-weight: 700;
 }
 .sec-para{
 color: #444343;
@@ -119,19 +128,19 @@ font-size: 40px;
 
 .btn-2{
   color: #005FAC;
-
-font-size: 20px;
-padding:20px 36px ;
-margin-left:65px ;margin-bottom:59px ;
-border: none;
-border-radius: 5px;
+  font-size: 20px;
+  padding:20px 36px ;
+  margin-left:65px ;margin-bottom:59px ;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
 }
 .future{
   display: flex;
   background-color: black;
-  justify-content:space-between ;
+  justify-content:space-between;
   padding-top: 130px;
-  padding-right: 220px;
+   padding-right: 100px;
 
   
 }
@@ -166,17 +175,17 @@ font-size: 25px;
 
 }
 input{
-  width:325px ;
-  height: 64px;
-  background-color: black;
+  
+  background-color:black;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
-margin-bottom: 16px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  padding:21px 158px 21px 20px;
+  
 
-color: #F3F3F3;
 
-font-size: 18px;
 
 }
 .subscribe-btn{
@@ -188,4 +197,29 @@ border-radius: 8px;
 background: #005FAC;
 border: none;
 
+}
+#subscribe{
+color: #FFF;
+font-size: 25px;
+font-weight: 600;
+margin-bottom:31px;
+padding: ;
+
+}
+::placeholder{
+color: #F3F3F3;
+font-size: 18px;
+}
+.subscribe-btn{
+border-radius: 8px;
+background: #005FAC;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+
+
+}
+.social{
+  display: flex;
+  gap: 15px;
 }
