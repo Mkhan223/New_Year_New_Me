@@ -45,14 +45,13 @@ margin-bottom:32px;
 
 .main-content{
   display: flex;
-   margin-left: 100px; 
+  margin-left: 200px;
+  margin-right: 200px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 150px;
 }
-.failures{
-  padding-right: 100px;
-}
+
 .header-titel{
 color: #151414;
 font-size: 40px;
@@ -77,8 +76,8 @@ i{
 .logo-container{
   display: flex;
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .my-plan{
   color: #151414;
@@ -114,8 +113,8 @@ margin-bottom: 135px;
   object-position: center;
   margin-bottom: 130px;
   background-size:cover;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
   border-radius: 8px;
 
 }
